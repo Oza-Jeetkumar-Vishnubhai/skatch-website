@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <form action="/admin" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <label for="imgname">Image Name</label>
+        <input type="text" name="imgname" id="imgname">
+        <label for="smdesc">Small Description</label>
+        <input type="text" name="smdesc" id="smdesc">
+        <label for="desc">Detailed Description</label>
+        <input type="text" name="desc" id="desc">
+        <label for="tags">Tags</label>
+        <input type="text" id="tags">
+        <button class="add" onclick="add(event)">+</button>
+        <label for="disp">display</label>
+        <input type="text" id="disp">
+        <button type="submit">Upload</button>
+    </form>
+    <div class="fs-1"><b>uploaded Image</b></div>
+    <script>
+        var arr=[];
+        function add(event){
+            event.preventDefault();
+            // arr.push($('#tags').val());
+            var x = $('#disp').val();
+            x = x + $('#tags').val() + ",";
+            $('#tags').val("");
+            $('#disp').val(x);
+        }
+        console.log(arr);
+    </script>
+</body>
+</html>

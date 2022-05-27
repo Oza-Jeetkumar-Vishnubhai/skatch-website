@@ -1,0 +1,61 @@
+.card{
+    margin:10px;
+    padding: 10px;
+    border-radius:5%;
+    width: 300px;
+    height: 600px;
+}
+.card #photu{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 5%;
+    transition: transform .3s ease-in-out;
+    /* margin: 0 0 10px 0; */
+}
+.img-div{
+    overflow: hidden;
+    border-radius:5%;
+    height:300px;
+}
+.card #photu:hover{
+    transform:scale(1.05);
+}
+.sketch{
+    border-radius:5%;
+}
+.card:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px gray;
+}
+.img-name{
+    font-family: 'Oswald', cursive;
+    font-size: 35px;
+}
+.sm-desc{
+    font-size: 20px;
+    margin: 0 10px;
+}
+.btn-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.read-more{
+    height:40px;
+    width:40%;
+    border-radius:10px;
+    border:3px solid red;
+}
+.read-more:hover{
+    background-color: aqua;
+}
+.tag-name{
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0;
+    width: 20%;
+}

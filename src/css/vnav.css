@@ -1,0 +1,27 @@
+.admin-img img{
+    border-radius:50%;
+    height:30vh;
+    padding:20px 0;
+}
+.greetings{
+    height:40px;
+    padding: 10px;
+    width:80%;
+    background-color: pink;
+    border-radius: 10px;
+}
+.tags,.categories,.lposts,.hello,.friends,.admin-img,.greetings,.social span,.posts{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tbl td:nth-child(2){
+    width:40%;
+}
+.tbl td:nth-child(1){
+    width:60%;
+    word-wrap:break-word;
+}
+.tbl{
+    margin:auto;
+}
