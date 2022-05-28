@@ -39,7 +39,8 @@ function Home() {
           </div>
           {/* <div className="col-3"> */}
           <div className='right-par' style={{width:"25%"}}>
-            <Vnav pdata={imgdata.slice(imgdata.length-3,imgdata.length)}/>
+            {console.log(imgdata.slice(imgdata.length-3))}
+            <Vnav pdata={imgdata.length<=3?imgdata:imgdata.slice(imgdata.length-3,imgdata.length)}/>
           </div>
         </div>
         <div className="navigation d-flex justify-content-evenly">

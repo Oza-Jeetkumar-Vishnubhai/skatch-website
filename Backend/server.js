@@ -48,7 +48,7 @@ var upload = multer({ storage: storage });
 app.post('/admin', upload.single('image'), (req, res, next) => {
   
     var imgdata = req.body;
-    console.log(req.file);
+    console.log("req.body",req.body);
     var obj2 = {
         img: {
             // data: fs.readFileSync(path.join(__dirname + '/uploads/' + req.file.filename)),

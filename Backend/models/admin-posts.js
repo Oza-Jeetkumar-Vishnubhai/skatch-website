@@ -10,7 +10,7 @@ const img = new mongoose.Schema({
         imgname:String,
         smdesc:String,
         desc:String,
-        tag:[{tagname:String}]
+        tag:String
     }
 });
 const imgModel = mongoose.model('Images',img);
