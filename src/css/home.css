@@ -1,8 +1,19 @@
 .name{
-    font-size:115px;
+    font-size: 15vh;
     letter-spacing: 1vh;
+    width: -webkit-fill-available;
+    overflow-wrap: anywhere;
 }
 .sub-name{
     font-size:3vh;
-    color:gray;
 }
+/* .parent{
+    position: relative;
+} */
+/* .preview{
+    height:100vh;
+    width:100vw;
+    position: absolute;
+    top:0;
+    background-color: rgba(128, 128, 128, 0.53);
+} */

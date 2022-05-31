@@ -1,9 +1,11 @@
 .nav-head{
-    background-color:aqua;
+    background-color:black;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1%;
+    color:white;
 }
 .nav-left{
     /* width:20vh; */

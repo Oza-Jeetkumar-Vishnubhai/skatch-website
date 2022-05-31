@@ -49,6 +49,7 @@ function Vnav(props) {
                                     <td className="txt text-center">{data.imgdata.imgname}</td>
                                     <td className="lp-img"><img src={`http://localhost:3000/${data.img.path}`} alt="lphotu" height="130"/></td>
                                 </tr>
+                                <hr />
                             </>
                         }).reverse()
                     }

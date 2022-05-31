@@ -7,8 +7,9 @@
     height:40px;
     padding: 10px;
     width:80%;
-    background-color: pink;
+    background-color: #909090;
     border-radius: 10px;
+    border:2px solid black;
 }
 .tags,.categories,.lposts,.hello,.friends,.admin-img,.greetings,.social span,.posts{
     display:flex;
@@ -24,4 +25,22 @@
 }
 .tbl{
     margin:auto;
+}
+.right-par
+{
+    width: 25%;
+    background-color: #00000030;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+}
+.right-par:hover{
+    width: 25%;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    background-color: #00000063;
+}
+hr{
+    color:black;
 }
