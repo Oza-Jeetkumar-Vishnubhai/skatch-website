@@ -47,7 +47,7 @@ function Vnav(props) {
                             return <>
                                 <tr className="posts" id={index}>
                                     <td className="txt text-center">{data.imgdata.imgname}</td>
-                                    <td className="lp-img"><img src={`http://localhost:3000/${data.img.path}`} alt="lphotu" height="130"/></td>
+                                    <td className="lp-img"><img src={`http://localhost:8000/${data.img.path}`} alt="lphotu" height="130"/></td>
                                 </tr>
                                 <hr />
                             </>

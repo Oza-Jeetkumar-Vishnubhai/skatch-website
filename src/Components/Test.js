@@ -3,7 +3,7 @@ import React from 'react'
 function Test() {
   return (
     <div>
-        soridjgoeji
+        this is test
     </div>
   )
 }
