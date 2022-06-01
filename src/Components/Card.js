@@ -38,7 +38,7 @@ function Card(props) {
         <div className="card">
             {/* <button className="close" style={disp?{display:"block"}:{display:"none"}} onClick={zoomout}>close</button> */}
             {/* <img src={img} alt="photo" className="sketch" /> */}
-            <div className={`img-div ${!loader?"":"d-flex justify-content-center align-items-center"}`} style={{backgroundColor:`${loader?"black":""}`}} >{loader?<Loader/>:<img src={`http://localhost:8000//${props?.imgdata?.img?.path}`} alt="photu" id="photu" />}</div>
+            <div className={`img-div ${!loader?"":"d-flex justify-content-center align-items-center"}`} style={{backgroundColor:`${loader?"black":""}`}} >{loader?<Loader/>:<img src={`https://sketch-web.herokuapp.com//${props?.imgdata?.img?.path}`} alt="photu" id="photu" />}</div>
             <div className="details">
             <div className="img-name text-center">{props?.imgdata?.imgdata?.imgname}</div>
             <div className="tag text-center"><img src={tag} alt="tag" height="25" />
