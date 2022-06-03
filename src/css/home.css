@@ -1,11 +1,14 @@
-.name{
-    font-size: 15vh;
-    letter-spacing: 1vh;
+.name span{
+    font-size: 3rem;
+    letter-spacing: 10px;
     width: -webkit-fill-available;
     overflow-wrap: anywhere;
 }
-.sub-name{
-    font-size:3vh;
+.sub-name span{
+    font-size:2rem;
+}
+.container::-webkit-scrollbar{
+    display: none;
 }
 /* .parent{
     position: relative;

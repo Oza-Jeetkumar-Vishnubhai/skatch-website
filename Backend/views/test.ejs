@@ -9,21 +9,20 @@
 </head>
 <body>
     <form action="/admin" method="POST" enctype="multipart/form-data">
-        <input type="file" name="image">
+        <input type="file" name="image"><br>
         <label for="imgname">Image Name</label>
-        <input type="text" name="imgname" id="imgname">
+        <input type="text" name="imgname" id="imgname"><br>
         <label for="smdesc">Small Description</label>
-        <input type="text" name="smdesc" id="smdesc">
+        <input type="text" name="smdesc" id="smdesc"><br>
         <label for="desc">Detailed Description</label>
-        <input type="text" name="desc" id="desc">
+        <input type="text" name="desc" id="desc"><br>
         <label for="tags">Tags</label>
-        <input type="text" id="tags">
-        <button class="add" onclick="add(event)">+</button>
+        <input type="text" id="tags"><br>
+        <button class="add" onclick="add(event)">ADD</button><br>
         <label for="disp">display</label>
-        <input type="text" name="tag" id="disp">
+        <input type="text" name="tag" id="disp"><br>
         <button type="submit">Upload</button>
     </form>
-    <div class="fs-1"><b>uploaded Image</b></div>
     <script>
         var arr=[];
         function add(event){

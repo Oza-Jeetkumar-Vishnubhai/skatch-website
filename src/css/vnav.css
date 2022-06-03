@@ -33,6 +33,11 @@
     padding: 15px;
     border-radius: 30px;
     color: white;
+    width: 25%;
+    height: max-content;
+    position: sticky;
+    top: 0;
+    bottom: 0;
 }
 .right-par:hover{
     width: 25%;
@@ -43,4 +48,7 @@
 }
 hr{
     color:black;
+}
+.table{
+    overflow: hidden;
 }

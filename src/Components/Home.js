@@ -23,8 +23,8 @@ function Home() {
   // return !loader && (
   return (
     <>
-      <div className="name text-center">thesketcher</div>
-      <div className="sub-name text-center">Only thing I know how to use is a pencil</div>
+      <div className="name text-center"><span>thesketcher</span></div>
+      <div className="sub-name text-center"><span>Only thing I know how to use is a pencil</span></div>
       <div className="container">
         <div className="d-flex flex-md-wrap">
           <div className="left-par d-flex align-items-center" style={{ width: "75%" }}>
