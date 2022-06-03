@@ -36,8 +36,13 @@
     cursor:pointer;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:793px) {
     .nav-head{
         width:max-content;
+    }
+}
+@media screen and (min-width:793px) and (max-width:990px) {
+    .nav-head{
+        width:auto;
     }
 }
